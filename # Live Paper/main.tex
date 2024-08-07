@@ -1,0 +1,128 @@
+%--------------------
+% Packages
+% -------------------
+\documentclass[11pt,english]{article}
+\usepackage{amsfonts}
+\usepackage[left=2.5cm,top=2cm,right=2.5cm,bottom=3cm,bindingoffset=0cm]{geometry}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy}
+\usepackage{fancyhdr}
+\usepackage{currfile}
+\usepackage{nicefrac}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage{lscape}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{setspace}
+\usepackage[font=itshape]{quoting}
+\onehalfspacing
+\usepackage{mathrsfs}
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[multiple]{footmisc}
+\usepackage[T1]{fontenc}
+\usepackage[sc]{mathpazo}
+\usepackage{longtable}
+\definecolor{lol}{RGB}{175,30,45}
+\definecolor{cmured}{RGB}{56,108,176}
+\usepackage[format=plain,
+            labelfont=bf,
+            textfont=]{caption}
+\usepackage[colorlinks=true,citecolor=lol,linkcolor=lol,urlcolor=lol]{hyperref}
+\usepackage{varioref}
+\usepackage{chngcntr}
+
+\definecolor{darkgreen}{RGB}{30,175,88}
+\definecolor{darkblue}{RGB}{30,118,175}
+\definecolor{maroon}{rgb}{0.66,0,0}
+\definecolor{darkgreen}{rgb}{0,0.69,0}
+
+%Counters
+\newtheorem{theorem}{Theorem}[section] 
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{assumption}{Assumption}
+\newtheorem{axiom}{Axiom}
+\newtheorem{case}{Case}
+\newtheorem{claim}{Claim}
+\newtheorem{condition}{Condition}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\newtheorem{notation}{Notation}
+\newtheorem{remark}{Remark}
+
+
+
+\hypersetup{ 	
+pdfsubject = {},
+pdftitle = {Slum Mapping and Household Location Choice},
+pdfauthor = {Pranay Gundam, Carnegie Mellon University},
+linkcolor= lol
+}
+
+\title{\textbf{Slum Mapping and Household Location Choice}}
+\author{Pranay Gundam, Carnegie Mellon University \\[1cm]{\small Advisor: Laurence Ales, Carnegie Mellon University\footnote{I would like to thank my advisor Laurence Ales for guiding me through this process of building nascent economics-related curiosities into actionable research plans and ultimately into a full-blown paper. I would also like to thank the organization, Slum Dwellers International, for cooperating with me throughout my data collection process and Anouska Siva as well for assisting me with a lot of the manual labor that comes with the collection process. Finally, I would like to thank all friends and family that helped edit and supported me throughout my senior year of my undergraduate career.}}}
+%-----------------------
+% Begin document
+%-----------------------
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+Current theories of slum formation attribute the growth in slums to urban growth outpacing municipal infrastructure spending. The data is clear, however, that aggregate slum populations around the world have declined despite positive urban growth and relatively constant infrastructure spending. This mismatch may be in part due to the difficulty of collecting accurate slum data or some other trend in an uncaptured effect that is a significant factor in forcing households to live in slums. This paper addresses both issues by first developing a predictive model for mapping slums using novel nighttime lights satellite imagery (Version 4 DMSP-OLS Nighttime Lights Time Series) and spatial population density data (World Pop Hub); I find that slums tend to map to areas with low light levels and high population density levels while the biggest factor in reducing the log-likelihood of a certain location being a slum is high light levels. The second section of this paper constructs and calibrates a basic spatial choice model to help address the question of decreasing slums at a microeconomics household level. Oftentimes, specificity is an issue when working with developing countries and that remains the case in this paper as well; the calibrated choice model faces issues with model fit and statistical significance likely due to a low-quality data set.
+\end{abstract}
+\newpage
+
+
+\newpage
+\tableofcontents
+\newpage
+
+
+
+\input{Introduction/Slums_and_Urban_Migration}
+
+\input{Introduction/Relevance}
+
+\input{Data/Dataset_Descriptions}
+
+\input{Data/Compile_Data_EDA}
+
+\input{Data/Lights_Pop_Accounting}
+
+\input{Modeling/Kenya}
+
+\input{Modeling/UtilModel}
+
+\input{Modeling/GeneralEquilibrium}
+
+\input{Conclusion/Conclusion}
+
+
+
+\clearpage
+
+\input{Conclusion/Appendix}
+
+
+\clearpage
+
+\bibliography{sources}
+\bibliographystyle{unsrt}
+
+
+
+
+\end{document}

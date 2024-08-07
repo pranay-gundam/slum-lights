@@ -1,0 +1,75 @@
+\subsection{Household Spatial Choice Models}
+
+As of yet, this paper has been a statistics question regarding how one can build a model to identify where slums are located based on nighttime light and population density data. The next parts of this paper will build a decision model for households that face the choice between living in different areas. There are two ways to model the decision-making process that households face. We can determine which to use in the future based on the availability of data since data availability is the one of, if not the biggest issue when working with developing countries. Finding very detailed spatial information for each county let alone each square kilometer is a herculean task. As such, the following sections will detail two model building processes; the first is a simplistic set up that I  will calibrate using not so perfect data and some assumptions, the second model will give a more detailed look at an idealistic model setup for exploring the questions of location choice but will not undergo any calibration. In both cases, however, I will specify an ideal data set for the calibratoin of each model. You can also refer to the appendix for ongoing work concerning simulating the growth of cities given households with utility functions similar to the one specified in the second more detailed choice model.
+
+\subsubsection{Binary Choice Model}
+
+The first, more simplistic setup is a two-choice model where households can choose whether or not they want to live in a slum or in an area in the city that is not a slum. To formalize, consider the problem setup; a household must choose whether to live in a slum $S_{slum}$ or in the main non-slum city $S_{city}$. The household's rent $r$ and wage $w$ is determined by where they live, and we can define the utility of living in either location as \begin{align}\begin{cases}
+    U_{city} &= w_{city} - r_{city} + \epsilon_{city}\\
+    U_{slum} &= w_{slum} - r_{slum} + \epsilon_{slum}
+    \end{cases}\end{align}
+    It would then follow that we are trying to identify the probability \begin{align}\begin{split}
+        p(S_{slum}) &= p(U_{slum} > U_{city})\\
+                    &= p(w_{slum} - r_{slum} + \epsilon_{slum} > w_{city} - r_{city} + \epsilon_{city})\\
+                    &= p(w_{slum} - w_{city} + r_{city} - r_{slum} > \epsilon_{city} - \epsilon_{slum})\\
+                    &= \int_{\epsilon}I(w_{slum} - w_{city} + r_{city} - r_{slum} > \epsilon_{city} - \epsilon_{slum}) f(\epsilon)\,d\epsilon
+    \end{split}\end{align} 
+    For binary choice models, one commonly used tool is a logistic regression which assumes that each error term is independently identically distributed and assumes the density and cumulative distributive functions are as follows \begin{align}
+        \begin{split}
+        f(\epsilon) &= \exp(-\epsilon)\cdot \exp(-\exp(\epsilon)),\\
+        F(\epsilon) &= \exp(-\exp(\epsilon)),\\
+        F(\epsilon_{city} - \epsilon_{slum}) &= \frac{\exp(\epsilon_{city} - \epsilon_{slum})}{1 + \exp(\epsilon_{city} - \epsilon_{slum})}
+        \end{split}
+    \end{align} 
+    Using equations (2) and (3), we can then define the probability of a household to live in either location as \begin{align}\begin{cases}
+    p(S_{slum}) &= \frac{\exp{(u(S_{slum}))}}{\exp{(u(S_{slum}))} + \exp{(u(S_{city}))}}\\
+    p(S_{city}) &= \frac{\exp{(u(S_{city}))}}{\exp{(u(S_{slum}))} + \exp{(u(S_{city}))}}
+    \end{cases}\end{align} and further that the log of the ratios of the probabilities as \begin{align}\ln\left(\frac{p(S_{slum})}{p(S_{city})}\right) = w_{slum} - r_{slum} - w_{city} + r_{city}.\end{align} Since people living in slums often times still have jobs in other areas in the city, we can assume that $w_{slums} = w_{city}$ and then continue to write \begin{align}
+        \ln\left(\frac{p(S_{slum})}{p(S_{city})}\right) = r_{city} - r_{slum}.
+    \end{align}
+    This very bare bones model only requires data on the differences between rent in areas considered slums and areas not considered slums and individuals/households who have made this decision. Even this, however, is a very difficult problem to find data for in developing countries. To calibrate one such model would require more assumptions and in the case of this paper we transform the model into an issue of ecological inference. The data collected is in the form of proportions of urban populations in cities\textsuperscript{\cite{WBslums}} and the median, upper, and lower rent levels of a city\textsuperscript{\cite{Numbeo}}. Ecological inference, in general, is an under specified problem (King 1997)\textsuperscript{\cite{GaryKing}} and should be avoided when trying to make very specific claims about households but has to be invoked in certain situations dependent on the data available. Specifically in this case, we are trying to infer about an individual household's predilection for living in slums or not from knowledge about the aggregate decisions of households in cities around the world using a binomial regression. As such, in a direct sense, this paper is estimating the effect that the difference between rent in a given city and rent in slums in that same city has on the log odds of the proportion of that city living in a slum or not and using that information to make inferences about an individual household's actions. An ideal data set for this basic model would be a survey of households who are marked as living in a slum or not and the rent that they currently pay and what they would have paid if they chose to live in the other location. Table 14 reports on the results of the binomial regression.
+
+    % Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Sat, Apr 22, 2023 - 8:54:46 PM
+\begin{table}[!htbp] \centering 
+  \caption{Basic binary household location choice model} 
+  \label{binchoice} 
+\begin{tabular}{@{\extracolsep{5pt}}lc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-2} 
+\\[-1.8ex] & Percent of urban population living in slum \\ 
+\hline \\[-1.8ex] 
+ Difference in city and slum rent & 0.0001 \\ 
+  & (0.0002) \\ 
+  & \\ 
+ Constant & $-$0.752$^{**}$ \\ 
+  & (0.320) \\ 
+  & \\ 
+\hline \\[-1.8ex] 
+Observations & 89 \\ 
+Log Likelihood & $-$54.343 \\ 
+Akaike Inf. Crit. & 112.685 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+
+It is very evident that the regression does not perform well. This is either due to a poorly specified model or an improper data source. Although the former may be true, the data that this model uses is to begin with not specific to the question we want to answer and is wrought with many assumptions which makes it more likely that this is the reason for the model's performance.
+
+\subsubsection{Multi-Choice Model}
+
+In reality, when individual households make spatial decisions concerning where they are to live the decision set isn't restricted to two choices. Rather, there are a set of multiple locations, each of which have their own unique characteristics. In addition, households cannot be assumed to be homogeneous, a city is comprised of a diverse set of households which on aggregate display different distributions for distinct characteristics of theirs such as income or utility preferences. There are a lot more moving parts with this model so let's consider a simplified version with some more complexity relative to the binary choice model described in the section above. The problem setup is as follows: a household $h_j$ has the option to choose from a finite set of $N$ locations $\{S_i\}_{i\in[N]}$. Each $S_i$ for some $i\in [N]$ has rent $r_i>0$ and unobserved variables $\epsilon_i$. We would then define the utility experienced by a household $h_j$ making wage $w_j$ and living in location $S_i$ as 
+\begin{align}
+    u(h_j, S_i) &= w_j - r_i + \epsilon _i.
+\end{align}
+Given this, and the derivations shown in the section above, we can define the probability of a household to live in location $S_i$ as \begin{align}
+    p(h,S_i|S_1,\ldots,S_N) &= \frac{\exp{(u(S_i))}}{\sum_{j=1}^N\exp{(u(S_j))}}.
+\end{align}
+Now, to further analyze the model, we shall assume that our set of locations $\{S_i\}_{i=1,\ldots,N}$ are around some modal city where there is a finite set of indices $I\subseteq [N]$ with cardinality $M$ (this set need not be non-empty) $\{S_{k}\}_{k\in I}\subseteq \{S_i\}_{i\in[N]}$ where each $S_{k}$ can be considered a slum. In this model, for simplicity's sake, we denote a slum as some location $S_k$ where the rent is less than some constant threshold $c\in  \mathbb{R}^+$; this is a reasonable assumption since people who cannot afford higher rent are often pushed into living in slums, note that given more detailed data we could extrapolate the definition in addition to rent to include locations characteristics such as population density, property rights, sanitation levels. We could then write the probability of a household living in a slum as \begin{align}
+    \sum_{k\in I}p(h,S_k|S_1,\ldots, S_N) &= \frac{\sum_{k\in I}\exp(u(S_k))}{\sum_{i\in [N]}\exp(u(S_i))}.
+\end{align}
+
+Similar to the last section, an ideal data set would consist of rows of households each with information on the characteristics of that household such as wage, personal preferences, and the rent that they would pay in various locations.

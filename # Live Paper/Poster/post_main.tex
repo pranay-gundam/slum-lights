@@ -1,0 +1,184 @@
+% Gemini theme
+% See: https://rev.cs.uchicago.edu/k4rtik/gemini-uccs
+% A fork of https://github.com/anishathalye/gemini
+
+\documentclass[final]{beamer}
+
+% ====================
+% Packages
+% ====================
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
+\usetheme{gemini}
+\usecolortheme{uchicago}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[font=small,skip=0pt]{caption}
+\pgfplotsset{compat=1.17}
+
+% ====================
+% Lengths
+% ====================
+
+% If you have N columns, choose \sepwidth and \colwidth such that
+% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.025\paperwidth}
+\setlength{\colwidth}{0.3\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+% ====================
+% Title
+% ====================
+
+\title{Slum Mapping and Household Location Choice}
+
+\author{Pranay Gundam, Tepper School of Business}
+
+\institute[shortinst]{Under the guidance of Professor Laurence Ales}
+
+
+
+% ====================
+% Logo (optional)
+% ====================
+
+% use this to include logos on the left and/or right side of the header:
+
+
+
+% ====================
+% Body
+% ====================
+
+\begin{document}
+\addtobeamertemplate{headline}{}
+{
+   \begin{tikzpicture}[remember picture,overlay]
+      \node [anchor=north east, inner sep=3cm] at ([xshift=0.0cm,yshift=2.5cm]current page.north east)
+      {\includegraphics[height=8.0cm]{Poster/poster_pics/Tepper_Unitmark_Red_and_Black.jpg}};
+    \end{tikzpicture}
+}
+\begin{frame}[t]
+\begin{columns}[t]
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+
+  \begin{block}{Pull-to-Par}
+
+    We use the term \textbf{pull-to-par} to describe the tendency of a bond's price to drift towards its face value over time. When looking at how the price of a zero coupon bond changes over time, we can attribute these fluctuations to the changes in the yield curve and the effect of pull-to-par.
+
+    $$P^{ZCB} = \frac{F}{\left(1+\frac{y}{2}\right)^{2(T-t)}} = F\left(1+\frac{y}{2}\right)^{2(t-T)}$$
+    
+    $$\implies \frac{d}{dt}\left[P^{ZCB}\right] = F\left(1+\frac{y}{2}\right)^{2(t-T)}\ln\left(1+\frac{y}{2}\right)(2)$$
+    $$\implies \frac{d}{dt}\left[P^{ZCB}\right]/P = \ln\left(1+\frac{y}{2}\right)(2) = \Gamma$$
+    
+    The \textbf{change in price of a zero coupon bond divided by price} can be approximated with an equation that is quantified by two effects (change in yield and change in time),
+    
+    $$\frac{\Delta P}{P} \approx -D\Delta y + \Gamma \Delta t$$\\
+    
+    where $D$ is the duration of the bond and $\Gamma$ is the derivative of the price of a zero coupon bond with respect to time divided by price. Although this formula is for a zero coupon bond, coupon bonds can be replicated using zero coupon bonds. Thus, this formula can be used as an approximation for the change in the price of the coupon bond as well, and the coupons can be factored in separately.
+    
+    %The same effect is seen in the context of coupon bonds although the math is much messier when considering discretized coupon payments. A coupon bond with continuous payments [insert the continuous coupon derivations here]\\
+
+    We can also visualize the effect of pull-to-par on the price of a coupon bond using self-constructed, hypothetical bonds. Suppose:
+    \begin{itemize}
+        \item The yield rate is constant at $4\%$
+        \item The market contains 3 10-year coupon bonds, and each coupon bond has a coupon of $2\%, 4\%$, or $6\%$
+    \end{itemize}
+    When graphing the full and flat prices of each of these coupon bonds, we can see that their prices are \textbf{pulled towards 100} — the price of a bond when it's at par — as the bond approaches its maturity.
+    
+
+  \end{block}
+
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+\begin{alertblock}{Abstract}
+
+    A concept in finance that is often misunderstood is the number of factors that influence the profitability of curve trading. One such factor is positive carry, which refers to a scenario when a trade profits off of the difference between interest earned and interest owed, not considering the cost of financing. In fact, some analysts claim that positive carry trades will always produce a profit, even when changes in the yield curve are disregarded. However, it is possible that such a trade may lose money due to pull-to-par. Pull-to-par is the tendency of a bond’s flat price to gravitate toward its par value as it approaches its maturity date. Our group works to investigate this idea by comparing how profiting off of steepening in the yield curve differs from profiting off of positive carry. We analyze this trade on three fronts — precise mathematical values, historical data, and continuous time simulations — to account for factors like pull-to-par. In our research, we find that for traditionally assumed, safe-for-profit positive-carry trades, the losses from the trades' pull-to-par effect may dampen the profit gained from the positive carry, indicating the importance of looking beyond merely the trades' carry. 
+
+  \end{alertblock}
+
+\begin{block}{Historical Backtesting}
+
+In order to test the effect of pull-to-par on overall profits of a trade, we came up with different scenarios and \textbf{backtested steepeners and flatteners} on each one. We constructed each portfolio of 10 and 30 year bonds while ensuring the portfolio was DV01-neutral, and the values for bond coupons and yields ranged from being extremely hypothetical to close to reality. The trades shown in the table below are the positive carry trades for each scenario.
+
+\begin{table}[]
+\small
+\begin{tabular}{ll|l|l|}
+\cline{3-4}
+                        &     & \begin{tabular}[c]{@{}l@{}}Hypothetical Trade Descriptions\\ (10Y coupon, 30Y coupon; 10Y yield, 30Y yield)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Final Yield Value (if changed)\\ (10Y yield, 30Y yield)\end{tabular} \\ \hline
+\multicolumn{1}{|l}{1}  &     & 2\%, 6\%; 4\%, 4\% (original, very exaggerated)                                                                   & N/A                                                                                             \\ \hline
+\multicolumn{1}{|l}{2}  &     & 4\%, 4\%; 4\%, 4\% (both at par)                                                                                  & N/A                                                                                             \\ \hline
+\multicolumn{1}{|l|}{3} & 3.1 & 2\%, 6\%; 3.5\%, 4.5\% (yields different, constant)                                                               & N/A                                                                                             \\ \cline{2-4} 
+\multicolumn{1}{|l|}{}  & 3.2 & 2\%, 6\%; 3.5\%, 4.5\% (yields different, steepen)                                                                & 3.25\%, 4.75\%                                                                                  \\ \cline{2-4} 
+\multicolumn{1}{|l|}{}  & 3.3 & 2\%, 6\%; 3.5\%, 4.5\% (yields different, flatten)                                                                & 3.25\%, 4.75\%                                                                                  \\ \hline
+\multicolumn{1}{|l}{4}  &     & 1.125\%, 1.875\%; 1.674\%, 2.331\% (yields steepen, realistic)                                                    & 1.610\%, 2.289\% (steepens)                                                                     \\ \hline
+\end{tabular}
+\end{table}
+
+The market quotes bond prices using the \textbf {flat price}, which is the difference between the \textbf{full price} and the \textbf{accrued interest}. In accordance with this, we evaluated the changes in portfolio values by flat price, accrued interest, and coupon payments (if any) of the bonds. A positive carry trade is considered to be a trade with a net positive change in accrued interest and/or coupon payments, disregarding cost of financing.
+
+Regardless of whether we hold \textbf{positive carry curve trades} for 6 months (positive carry on the coupon) or 2 months (positive carry on the accrued interest), we see situations where positive carries lead to net losses due to the effect of pull-to-par on changes of flat prices. Even in cases with net positive profits, the time effect on net changes of flat prices still noticeably dampens profits.
+
+% PUT TABLE HERE!
+
+\begin{table}[]
+\small
+\begin{tabular}{lll|r|r|r|r|}
+\cline{4-7}
+                        &                          &                                                                          & \multicolumn{1}{l|}{$\Delta$ Flat Price}                             & \multicolumn{1}{l|}{$\Delta$ Accrued Interest}             & \multicolumn{1}{l|}{$\Delta$  Coupon}                       & \multicolumn{1}{l|}{Net $\Delta$ }                                       \\ \hline
+\multicolumn{1}{|l}{1}  & \multicolumn{1}{l|}{}    & \begin{tabular}[c]{@{}l@{}}6m (w/ coupon)\\ 2m (w/o coupon)\end{tabular} & \begin{tabular}[c]{@{}r@{}}-\$777,255.51\\ -\$262,600.53\end{tabular}   & \begin{tabular}[c]{@{}r@{}}\$0.00\\ \$9,002.79\end{tabular}  & \begin{tabular}[c]{@{}r@{}}\$26,478.80\\ \$0.00\end{tabular}  & \begin{tabular}[c]{@{}r@{}}-\$750,776.72\\ -\$253,497.74\end{tabular}   \\ \hline
+\multicolumn{1}{|l}{2}  & \multicolumn{1}{l|}{}    & \begin{tabular}[c]{@{}l@{}}6m (w coupon)\\ 2m (w/o coupon)\end{tabular}  & \begin{tabular}[c]{@{}r@{}}\$0.00\\ -\$439.70\end{tabular}              & \begin{tabular}[c]{@{}r@{}}\$0.00\\ \$67,356.81\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$198,108.28\\ \$0.00\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$198,108.28\\ \$66,917.12\end{tabular}     \\ \hline
+\multicolumn{1}{|l|}{3} & \multicolumn{1}{l|}{3.1} & \begin{tabular}[c]{@{}l@{}}6m (w coupon)\\ 2m (w/o coupon)\end{tabular}  & \begin{tabular}[c]{@{}r@{}}-\$609,678.52\\ -\$207,132.25\end{tabular}   & \begin{tabular}[c]{@{}r@{}}\$0.00\\ \$71,181.09\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$209,356.15\\ \$0.00\end{tabular} & \begin{tabular}[c]{@{}r@{}}-\$400,322.36\\ -\$135,951.16\end{tabular}   \\ \cline{2-7} 
+\multicolumn{1}{|l|}{}  & \multicolumn{1}{l|}{3.2} & \begin{tabular}[c]{@{}l@{}}6m (w coupon)\\ 2m (w/o coupon)\end{tabular}  & \begin{tabular}[c]{@{}r@{}}-\$1,364,027.03\\ -\$460,837.26\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$0.00\\ \$71,181.09\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$209,356.15\\ \$0.00\end{tabular} & \begin{tabular}[c]{@{}r@{}}-\$1,154,670.88\\ -\$389,656.16\end{tabular} \\ \cline{2-7} 
+\multicolumn{1}{|l|}{}  & \multicolumn{1}{l|}{3.2} & \begin{tabular}[c]{@{}l@{}}6m (w coupon)\\ 2m (w/o coupon)\end{tabular}  & \begin{tabular}[c]{@{}r@{}}\$202,081.44\\ \$53,255.01\end{tabular}     & \begin{tabular}[c]{@{}r@{}}\$0.00\\ \$71,181.09\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$209,356.15\\ \$0.00\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$411,437.59\\ \$124,436.10\end{tabular}    \\ \hline
+\multicolumn{1}{|l}{4}  & \multicolumn{1}{l|}{}    & \begin{tabular}[c]{@{}l@{}}6m (w coupon)\\ 2m (w/o coupon)\end{tabular}  & \begin{tabular}[c]{@{}r@{}}-\$92,725.51\\ -\$31,559.35\end{tabular}     & \begin{tabular}[c]{@{}r@{}}\$0.00\\ \$50,430.30\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$148,324.42\\ \$0.00\end{tabular} & \begin{tabular}[c]{@{}r@{}}\$55,598.91\\ \$18,870.95\end{tabular}       \\ \hline
+\end{tabular}
+\end{table}
+
+\end{block}
+ 
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+  \begin{block}{Modeling Theoretical Trades}
+
+    We've looked at hypothetical steepeners and flatteners, but to get a more encompassing view, we ran simulations as well. The difference between simulations and the previously discussed exact mathematics is that there are more probabilistic effects that we can replicate in a simulation to better represent reality. We first shall confirm if the pull-to-par effect persists despite more invariability by sampling our yields from a normal distribution at each time increment.
+
+    Clearly, pull-to-par still affects bond prices in a similar manner. With this cursory view, we will now track the overall price of bond curve trades using a more realistic Ho-Lee model to calculate interest rates.
+  \end{block}
+  
+  \begin{block}{Ho-Lee Simulations}
+    We model interest rates given some volatility term $\sigma \in \mathbb{R}^{+}$ and drift function $\lambda:\mathbb{R}^{+} \to \mathbb{R}$ as $$r_t = r_0 + \int_0^t\lambda_s\,ds + \sigma W_t$$
+    %From interest rates, we solve back for yield using a polynomial expression and identifying the roots. 
+    We use these short term interest rates to calculate all the required yields and look at a more realistic steepener, in which we long a 10Y bond with a coupon of 1.125\% and short a 30Y bond with coupon 1.875\%. Although the magnitude is very low, this realistic scenario does show that the pull-to-par effect is prevalent.
+
+  \end{block}
+
+%\begin{block}{Acknowledgements}
+%    We would like to thank the Undergraduate Research Office for allowing us to take part in SURA over the summer and giving us the opportunity to present our research during the Spring 2021 Meeting of the Minds. Another big thank you to our advisor, Dr. William Hrusa for tirelessly meeting with us throughout the summer and semester and guiding us through our project.
+
+%  \end{block}
+
+\end{column}
+
+\separatorcolumn
+\end{columns}
+\end{frame}
+
+\end{document}
