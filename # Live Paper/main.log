@@ -1,0 +1,1509 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.19)  23 NOV 2024 14:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/main.t
+ex"
+
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/main.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-08>
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks19
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen149
+))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count198
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count199
+\leftroot@=\count266
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count267
+\DOTSCASE@=\count268
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count269
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count270
+\dotsspace@=\muskip16
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
+\tag@help=\toks21
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
+\andhelp@=\toks22
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks30
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box53
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count276
+\c@pgf@countb=\count277
+\c@pgf@countc=\count278
+\c@pgf@countd=\count279
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count280
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count281
+\pgfsyssoftpath@bigbuffer@items=\count282
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count283
+\pgfmath@box=\box54
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count284
+))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count285
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen191
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen195
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count286
+\pgf@shadingcount=\count287
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box58
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box59
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count288
+\pgfplotmarksize=\dimen257
+)
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikz@lastmovetox=\dimen262
+\tikz@lastmovetoy=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count289
+\tikznumberofchildren=\count290
+\tikznumberofcurrentchild=\count291
+\tikz@fig@count=\count292
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count293
+\pgfmatrixcurrentcolumn=\count294
+\pgf@matrix@numberofcolumns=\count295
+)
+\tikz@expandcount=\count296
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+decorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen266
+\pgfdecoratedremainingdistance=\dimen267
+\pgfdecoratedinputsegmentcompleteddistance=\dimen268
+\pgfdecoratedinputsegmentremainingdistance=\dimen269
+\pgf@decorate@distancetomove=\dimen270
+\pgf@decorate@repeatstate=\count297
+\pgfdecorationsegmentamplitude=\dimen271
+\pgfdecorationsegmentlength=\dimen272
+)
+\tikz@lib@dec@box=\box64
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
+ions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/spath3\tikzlibrarycalli
+graphy.code.tex
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/spath3\spath3.sty
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-12-08 L3 programming layer (loader) 
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-11-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count298
+\l__pdf_internal_box=\box65
+))
+Package: spath3 2022/08/24 v2.7 Functions for manipulating PGF soft paths
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-10-10 L3 Experimental document command parser
+)
+\g__spath_output_int=\count299
+\l__spath_tmpa_dim=\dimen273
+\l__spath_tmpb_dim=\dimen274
+\l__spath_tmpa_int=\count300
+\l__spath_tmpb_int=\count301
+\l__spath_move_x_dim=\dimen275
+\l__spath_move_y_dim=\dimen276
+\l__spath_rectx_dim=\dimen277
+\l__spath_recty_dim=\dimen278
+\g__spath_anon_int=\count302
+)
+\l__cal_tmpa_int=\count303
+\l__cal_tmpb_int=\count304
+\g__cal_path_component_int=\count305
+\g__cal_label_int=\count306
+\l__cal_tmpa_dim=\dimen279
+\l__cal_tmpb_dim=\dimen280
+\l__cal_tmpc_dim=\dimen281
+\l__cal_tmpd_dim=\dimen282
+\l__cal_tmpe_dim=\dimen283
+\l__cal_tmpf_dim=\dimen284
+\l__cal_tmpg_dim=\dimen285
+\l__cal_tmph_dim=\dimen286
+\l__cal_taper_width_dim=\dimen287
+\l__cal_line_width_dim=\dimen288
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+)
+
+! LaTeX Error: File `currfile.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/units\nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip65
+\L@UnitsRaiseTextstyle=\skip66
+\L@UnitsRaiseScriptstyle=\skip67
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen289
+\captionmargin=\dimen290
+\caption@leftmargin=\dimen291
+\caption@rightmargin=\dimen292
+\caption@width=\dimen293
+\caption@indent=\dimen294
+\caption@parindent=\dimen295
+\caption@hangindent=\dimen296
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count307
+\c@continuedfloat=\count308
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip68
+\LTright=\skip69
+\LTpre=\skip70
+\LTpost=\skip71
+\LTchunksize=\count309
+\LTcapwidth=\dimen297
+\LT@head=\box66
+\LT@firsthead=\box67
+\LT@foot=\box68
+\LT@lastfoot=\box69
+\LT@gbox=\box70
+\LT@cols=\count310
+\LT@rows=\count311
+\c@LT@tables=\count312
+\c@LT@chunks=\count313
+\LT@p@ftn=\toks43
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count314
+\rotFPtop=\skip72
+\rotFPbot=\skip73
+\rot@float@box=\box71
+\rot@mess@toks=\toks44
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen298
+\lightrulewidth=\dimen299
+\cmidrulewidth=\dimen300
+\belowrulesep=\dimen301
+\belowbottomsep=\dimen302
+\aboverulesep=\dimen303
+\abovetopsep=\dimen304
+\cmidrulesep=\dimen305
+\cmidrulekern=\dimen306
+\defaultaddspace=\dimen307
+\@cmidla=\count315
+\@cmidlb=\count316
+\@aboverulesep=\dimen308
+\@belowrulesep=\dimen309
+\@thisruleclass=\count317
+\@lastruleclass=\count318
+\@thisrulewidth=\dimen310
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count319
+\float@exts=\toks45
+\float@box=\box72
+\@float@everytoks=\toks46
+\@floatcapt=\box73
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/quoting\quoting.sty
+Package: quoting 2014/01/28 v0.1c Consolidated environment for displayed text
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count320
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\quo@toppartop=\skip74
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2023/09/26 version 6.1.0 text color boxes
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks47
+\verbatim@line=\toks48
+\verbatim@in@stream=\read3
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box74
+\tcb@upperbox=\box75
+\tcb@lowerbox=\box76
+\tcb@phantombox=\box77
+\c@tcbbreakpart=\count321
+\c@tcblayer=\count322
+\c@tcolorbox@number=\count323
+\tcb@temp=\box78
+\tcb@temp=\box79
+\tcb@temp=\box80
+\tcb@temp=\box81
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count324
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count325
+) (C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks49
+\footnotemargin=\dimen311
+\@outputbox@depth=\dimen312
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
+.
+) (C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup7
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count326
+)
+\@linkdim=\dimen313
+\Hy@linkcounter=\count327
+\Hy@pagecounter=\count328
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count329
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4064.
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count330
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen314
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count331
+\Field@Width=\dimen315
+\Fld@charsize=\dimen316
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring ON on input line 6083.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count332
+\c@Item=\count333
+\c@Hfootnote=\count334
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count335
+\c@bookmark@seq@number=\count336
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip75
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/tools\varioref.sty
+Package: varioref 2022/01/09 v1.6f package for extended references (FMi)
+\c@vrcnt=\count337
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+\c@theorem=\count338
+\c@proposition=\count339
+\c@lemma=\count340
+\c@corollary=\count341
+\c@assumption=\count342
+\c@axiom=\count343
+\c@case=\count344
+\c@claim=\count345
+\c@condition=\count346
+\c@definition=\count347
+\c@example=\count348
+\c@notation=\count349
+\c@remark=\count350
+LaTeX Font Info:    Trying to load font information for T1+pplx on input line 7
+8.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pplx.fd
+File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
+)
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 472.03123pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 652.70622pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=472.03123pt
+* \textheight=652.70622pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count351
+\scratchdimen=\dimen317
+\scratchbox=\box82
+\nofMPsegments=\count352
+\nofMParguments=\count353
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count354
+\MPscratchDim=\dimen318
+\MPnumerator=\count355
+\makeMPintoPDFobject=\count356
+\everyMPtoPDFconversion=\toks51
+)
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 78.
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+LaTeX Font Info:    Trying to load font information for OT1+pplx on input line 
+81.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
+81.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
+81.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
+81.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 81.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 81.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 81.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 81.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 81.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 81.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 81
+.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
+81.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 81.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 81.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 81.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 81.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 81.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 81.
+LaTeX Font Info:    Trying to load font information for TS1+pplx on input line 
+81.
+
+(C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1pplx.fd
+File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
+)
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 81.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 5.21004pt on input line 81.
+
+[1
+
+{C:/Users/robop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/robo
+p/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+No file main.toc.
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+[2]
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Introduc
+tion/Slums_and_Urban_Migration.tex
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 11.40997pt on input line 5.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 8.33606pt on input line 5.
+
+
+LaTeX Warning: Citation `UNslumdef' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Henderson' on page 3 undefined on input line 8.
+
+
+LaTeX Warning: Citation `MTSU' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation `LuiZhang' on page 3 undefined on input line 10.
+
+
+LaTeX Warning: Citation `LuiZhang' on page 3 undefined on input line 10.
+
+<Graphics/urbanpopPercent.png, id=18, 514.92375pt x 230.36063pt>
+File: Graphics/urbanpopPercent.png Graphic file (type png)
+<use Graphics/urbanpopPercent.png>
+Package pdftex.def Info: Graphics/urbanpopPercent.png  used on input line 14.
+(pdftex.def)             Requested size: 411.93954pt x 184.28873pt.
+[3]
+<Graphics/Average Percent of urban households living in slums.png, id=26, 496.8
+5625pt x 294.09875pt>
+File: Graphics/Average Percent of urban households living in slums.png Graphic 
+file (type png)
+<use Graphics/Average Percent of urban households living in slums.png>
+Package pdftex.def Info: Graphics/Average Percent of urban households living in
+ slums.png  used on input line 25.
+(pdftex.def)             Requested size: 397.48553pt x 235.27931pt.
+<Graphics/Average country-wide infrastructure spending per region.png, id=27, 5
+90.205pt x 209.28188pt>
+File: Graphics/Average country-wide infrastructure spending per region.png Grap
+hic file (type png)
+<use Graphics/Average country-wide infrastructure spending per region.png>
+Package pdftex.def Info: Graphics/Average country-wide infrastructure spending 
+per region.png  used on input line 32.
+(pdftex.def)             Requested size: 481.4406pt x 170.71652pt.
+
+Overfull \hbox (9.40936pt too wide) in paragraph at lines 32--33
+ [][] 
+ []
+
+
+LaTeX Warning: Citation `WBGBMD' on page 4 undefined on input line 39.
+
+
+LaTeX Warning: Citation `WBGBMD' on page 4 undefined on input line 39.
+
+
+LaTeX Warning: Citation `Teye' on page 4 undefined on input line 51.
+
+
+LaTeX Warning: Citation `Teye' on page 4 undefined on input line 55.
+
+[4 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graph
+ics/urbanpopPercent.png>] [5 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior
+ Thesis/# Live Paper/Graphics/Average Percent of urban households living in slu
+ms.png> <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/
+Graphics/Average country-wide infrastructure spending per region.png>]
+<Graphics/Kenya Urban Population Percentage.png, id=43, 526.96875pt x 325.215pt
+>
+File: Graphics/Kenya Urban Population Percentage.png Graphic file (type png)
+<use Graphics/Kenya Urban Population Percentage.png>
+Package pdftex.def Info: Graphics/Kenya Urban Population Percentage.png  used o
+n input line 61.
+(pdftex.def)             Requested size: 342.52562pt x 211.38724pt.
+<Graphics/Kenyan Urban Slums.png, id=44, 325.71687pt x 265.49188pt>
+File: Graphics/Kenyan Urban Slums.png Graphic file (type png)
+<use Graphics/Kenyan Urban Slums.png>
+Package pdftex.def Info: Graphics/Kenyan Urban Slums.png  used on input line 69
+.
+(pdftex.def)             Requested size: 260.57384pt x 212.39378pt.
+)
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Introduc
+tion/Relevance.tex
+
+LaTeX Warning: Citation `Marx' on page 6 undefined on input line 3.
+
+[6 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graph
+ics/Kenya Urban Population Percentage.png>]
+
+LaTeX Warning: Citation `wdislums' on page 7 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Marx' on page 7 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Mackay' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Badmos' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Celhay' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Deeyah' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Roy' on page 7 undefined on input line 9.
+
+
+LaTeX Warning: Citation `Das' on page 7 undefined on input line 9.
+
+[7 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graph
+ics/Kenyan Urban Slums.png>])
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Data/Dat
+aset_Descriptions.tex
+
+LaTeX Warning: Citation `lightdata' on page 8 undefined on input line 5.
+
+<Graphics/F162008 avg lights pic.png, id=59, 1214.28656pt x 474.27188pt>
+File: Graphics/F162008 avg lights pic.png Graphic file (type png)
+<use Graphics/F162008 avg lights pic.png>
+Package pdftex.def Info: Graphics/F162008 avg lights pic.png  used on input lin
+e 11.
+(pdftex.def)             Requested size: 364.28877pt x 142.28265pt.
+
+LaTeX Warning: Citation `popdata' on page 8 undefined on input line 18.
+
+[8 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graph
+ics/F162008 avg lights pic.png>]
+
+LaTeX Warning: Citation `slumdata' on page 9 undefined on input line 22.
+
+
+LaTeX Warning: Citation `wdislums' on page 9 undefined on input line 26.
+
+
+LaTeX Warning: Citation `Numbeo' on page 9 undefined on input line 30.
+
+[9])
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Data/Com
+pile_Data_EDA.tex
+<Graphics/Total Mosaic.png, id=72, 636.98442pt x 490.76372pt>
+File: Graphics/Total Mosaic.png Graphic file (type png)
+<use Graphics/Total Mosaic.png>
+Package pdftex.def Info: Graphics/Total Mosaic.png  used on input line 28.
+(pdftex.def)             Requested size: 229.31421pt x 176.67479pt.
+<Graphics/Slum Mosaic.png, id=73, 636.98442pt x 490.76372pt>
+File: Graphics/Slum Mosaic.png Graphic file (type png)
+<use Graphics/Slum Mosaic.png>
+Package pdftex.def Info: Graphics/Slum Mosaic.png  used on input line 29.
+(pdftex.def)             Requested size: 229.31421pt x 176.67479pt.
+<Graphics/Light Value density curve.png, id=74, 295.1025pt x 204.01219pt>
+File: Graphics/Light Value density curve.png Graphic file (type png)
+<use Graphics/Light Value density curve.png>
+Package pdftex.def Info: Graphics/Light Value density curve.png  used on input 
+line 55.
+(pdftex.def)             Requested size: 206.57033pt x 142.80756pt.
+<Graphics/Pop Density density curve.png, id=75, 350.05782pt x 184.43906pt>
+File: Graphics/Pop Density density curve.png Graphic file (type png)
+<use Graphics/Pop Density density curve.png>
+Package pdftex.def Info: Graphics/Pop Density density curve.png  used on input 
+line 56.
+(pdftex.def)             Requested size: 262.54271pt x 138.32895pt.
+ [10] [11 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Pape
+r/Graphics/Total Mosaic.png> <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior
+ Thesis/# Live Paper/Graphics/Slum Mosaic.png> <C:/Users/robop/Documents/Pranay
+/# RESEARCH/Senior Thesis/# Live Paper/Graphics/Light Value density curve.png> 
+<C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graphics
+/Pop Density density curve.png>]
+<Graphics/10BinsBar.png, id=93, 451.26732pt x 397.485pt>
+File: Graphics/10BinsBar.png Graphic file (type png)
+<use Graphics/10BinsBar.png>
+Package pdftex.def Info: Graphics/10BinsBar.png  used on input line 65.
+(pdftex.def)             Requested size: 315.88496pt x 278.2376pt.
+ [12 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Gra
+phics/10BinsBar.png>]
+<Graphics/Approximated Spatial Distribution of Slums in Kenya.png, id=103, 500.
+8479pt x 441.18314pt>
+File: Graphics/Approximated Spatial Distribution of Slums in Kenya.png Graphic 
+file (type png)
+<use Graphics/Approximated Spatial Distribution of Slums in Kenya.png>
+Package pdftex.def Info: Graphics/Approximated Spatial Distribution of Slums in
+ Kenya.png  used on input line 74.
+(pdftex.def)             Requested size: 300.51106pt x 264.71191pt.
+)
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Data/Lig
+hts_Pop_Accounting.tex
+<Graphics/Normalized Trended GDP Growth.png, id=104, 578.16pt x 179.92218pt>
+File: Graphics/Normalized Trended GDP Growth.png Graphic file (type png)
+<use Graphics/Normalized Trended GDP Growth.png>
+Package pdftex.def Info: Graphics/Normalized Trended GDP Growth.png  used on in
+put line 7.
+(pdftex.def)             Requested size: 404.70924pt x 125.94466pt.
+<Graphics/Capital Share.png, id=105, 733.23938pt x 156.585pt>
+File: Graphics/Capital Share.png Graphic file (type png)
+<use Graphics/Capital Share.png>
+Package pdftex.def Info: Graphics/Capital Share.png  used on input line 8.
+(pdftex.def)             Requested size: 381.28667pt x 81.42465pt.
+<Graphics/Kenya Growth Accounting.png, id=106, 733.23938pt x 156.585pt>
+File: Graphics/Kenya Growth Accounting.png Graphic file (type png)
+<use Graphics/Kenya Growth Accounting.png>
+Package pdftex.def Info: Graphics/Kenya Growth Accounting.png  used on input li
+ne 9.
+(pdftex.def)             Requested size: 381.28667pt x 81.42465pt.
+ [13 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Gra
+phics/Approximated Spatial Distribution of Slums in Kenya.png (PNG copy)>]
+<Graphics/Average lights and population density over time.png, id=114, 364.3612
+5pt x 307.1475pt>
+File: Graphics/Average lights and population density over time.png Graphic file
+ (type png)
+<use Graphics/Average lights and population density over time.png>
+Package pdftex.def Info: Graphics/Average lights and population density over ti
+me.png  used on input line 19.
+(pdftex.def)             Requested size: 200.39929pt x 168.93164pt.
+<Graphics/Kenya, Average lights and GDP per Capita over time.png, id=115, 313.1
+7pt x 212.29312pt>
+File: Graphics/Kenya, Average lights and GDP per Capita over time.png Graphic f
+ile (type png)
+<use Graphics/Kenya, Average lights and GDP per Capita over time.png>
+Package pdftex.def Info: Graphics/Kenya, Average lights and GDP per Capita over
+ time.png  used on input line 23.
+(pdftex.def)             Requested size: 250.53633pt x 169.83472pt.
+
+Overfull \hbox (38.12372pt too wide) in paragraph at lines 23--24
+[][] 
+ []
+
+)
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Modeling
+/Kenya.tex [14 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live
+ Paper/Graphics/Normalized Trended GDP Growth.png> <C:/Users/robop/Documents/Pr
+anay/# RESEARCH/Senior Thesis/# Live Paper/Graphics/Capital Share.png> <C:/User
+s/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graphics/Kenya G
+rowth Accounting.png>] [15 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior T
+hesis/# Live Paper/Graphics/Average lights and population density over time.png
+> <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graphi
+cs/Kenya, Average lights and GDP per Capita over time.png>]
+<Graphics/Vanilla Slums and Total Dataset Accuracy Tradeoff.png, id=135, 468.75
+125pt x 248.93pt>
+File: Graphics/Vanilla Slums and Total Dataset Accuracy Tradeoff.png Graphic fi
+le (type png)
+<use Graphics/Vanilla Slums and Total Dataset Accuracy Tradeoff.png>
+Package pdftex.def Info: Graphics/Vanilla Slums and Total Dataset Accuracy Trad
+eoff.png  used on input line 68.
+(pdftex.def)             Requested size: 375.0015pt x 199.14426pt.
+<Graphics/Vanilla Predicted Spatial Distribution of Slums in Kenya.png, id=136,
+ 500.8479pt x 441.18314pt>
+File: Graphics/Vanilla Predicted Spatial Distribution of Slums in Kenya.png Gra
+phic file (type png)
+<use Graphics/Vanilla Predicted Spatial Distribution of Slums in Kenya.png>
+Package pdftex.def Info: Graphics/Vanilla Predicted Spatial Distribution of Slu
+ms in Kenya.png  used on input line 75.
+(pdftex.def)             Requested size: 350.59114pt x 308.82608pt.
+<Graphics/Total Mosaic Bins.png, id=137, 1008.41861pt x 749.59116pt>
+File: Graphics/Total Mosaic Bins.png Graphic file (type png)
+<use Graphics/Total Mosaic Bins.png>
+Package pdftex.def Info: Graphics/Total Mosaic Bins.png  used on input line 86.
+
+(pdftex.def)             Requested size: 226.89978pt x 168.66217pt.
+<Graphics/Slum Mosaic Bins.png, id=138, 959.67838pt x 713.45616pt>
+File: Graphics/Slum Mosaic Bins.png Graphic file (type png)
+<use Graphics/Slum Mosaic Bins.png>
+Package pdftex.def Info: Graphics/Slum Mosaic Bins.png  used on input line 87.
+(pdftex.def)             Requested size: 220.72137pt x 164.09146pt.
+ [16] [17 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Pape
+r/Graphics/Vanilla Slums and Total Dataset Accuracy Tradeoff.png> <C:/Users/rob
+op/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graphics/Vanilla Pred
+icted Spatial Distribution of Slums in Kenya.png (PNG copy)>] [18 <C:/Users/rob
+op/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graphics/Total Mosaic
+ Bins.png> <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Pap
+er/Graphics/Slum Mosaic Bins.png>]
+<Graphics/Bins Slums and Total Dataset Accuracy Tradeoff.png, id=161, 468.75125
+pt x 248.93pt>
+File: Graphics/Bins Slums and Total Dataset Accuracy Tradeoff.png Graphic file 
+(type png)
+<use Graphics/Bins Slums and Total Dataset Accuracy Tradeoff.png>
+Package pdftex.def Info: Graphics/Bins Slums and Total Dataset Accuracy Tradeof
+f.png  used on input line 133.
+(pdftex.def)             Requested size: 375.0015pt x 199.14426pt.
+<Graphics/Bins Predicted Spatial Distribution of Slums in Kenya.png, id=162, 50
+0.8479pt x 441.18314pt>
+File: Graphics/Bins Predicted Spatial Distribution of Slums in Kenya.png Graphi
+c file (type png)
+<use Graphics/Bins Predicted Spatial Distribution of Slums in Kenya.png>
+Package pdftex.def Info: Graphics/Bins Predicted Spatial Distribution of Slums 
+in Kenya.png  used on input line 142.
+(pdftex.def)             Requested size: 300.51106pt x 264.71191pt.
+<Graphics/Weighted Slums and Total Dataset Accuracy Tradeoff.png, id=163, 468.7
+5125pt x 248.93pt>
+File: Graphics/Weighted Slums and Total Dataset Accuracy Tradeoff.png Graphic f
+ile (type png)
+<use Graphics/Weighted Slums and Total Dataset Accuracy Tradeoff.png>
+Package pdftex.def Info: Graphics/Weighted Slums and Total Dataset Accuracy Tra
+deoff.png  used on input line 219.
+(pdftex.def)             Requested size: 375.0015pt x 199.14426pt.
+<Graphics/Weighted Predicted Spatial Distribution of Slums in Kenya.png, id=164
+, 500.8479pt x 441.18314pt>
+File: Graphics/Weighted Predicted Spatial Distribution of Slums in Kenya.png Gr
+aphic file (type png)
+<use Graphics/Weighted Predicted Spatial Distribution of Slums in Kenya.png>
+Package pdftex.def Info: Graphics/Weighted Predicted Spatial Distribution of Sl
+ums in Kenya.png  used on input line 228.
+(pdftex.def)             Requested size: 300.51106pt x 264.71191pt.
+ [19 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Gra
+phics/Bins Slums and Total Dataset Accuracy Tradeoff.png>]
+[20 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Grap
+hics/Bins Predicted Spatial Distribution of Slums in Kenya.png (PNG copy)> <C:/
+Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Graphics/Wei
+ghted Slums and Total Dataset Accuracy Tradeoff.png>]
+<Graphics/RF Predicted Spatial Distribution of Slums in Kenya.png, id=181, 500.
+8479pt x 441.18314pt>
+File: Graphics/RF Predicted Spatial Distribution of Slums in Kenya.png Graphic 
+file (type png)
+<use Graphics/RF Predicted Spatial Distribution of Slums in Kenya.png>
+Package pdftex.def Info: Graphics/RF Predicted Spatial Distribution of Slums in
+ Kenya.png  used on input line 240.
+(pdftex.def)             Requested size: 300.51106pt x 264.71191pt.
+ [21] [22 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Pape
+r/Graphics/Weighted Predicted Spatial Distribution of Slums in Kenya.png (PNG c
+opy)> <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper/Gr
+aphics/RF Predicted Spatial Distribution of Slums in Kenya.png (PNG copy)>])
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Modeling
+/UtilModel.tex [23] [24]
+
+LaTeX Warning: Citation `WBslums' on page 25 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Numbeo' on page 25 undefined on input line 30.
+
+
+LaTeX Warning: Citation `GaryKing' on page 25 undefined on input line 30.
+
+[25]
+LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
+71.
+ (C:\Users\robop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+) [26])
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Modeling
+/GeneralEquilibrium.tex
+! Display math should end with $$.
+<to be read again> 
+                   \left 
+l.7 ...nd a consumption good ($c$). $$U_i = $\left
+                                                  (\frac{c}{\alpha_1}\right)...
+
+? 
+[27]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...nd a consumption good ($c$). $$U_i = $\left
+                                                  (\frac{c}{\alpha_1}\right)...
+
+? 
+)
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Conclusi
+on/Conclusion.tex) [28]
+No file main.bbl.
+
+(C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Paper\Conclusi
+on/Appendix.tex [29
+
+
+] [30] [31] [32]
+<Graphics/city sim basic.png, id=268, 571.38469pt x 456.20438pt>
+File: Graphics/city sim basic.png Graphic file (type png)
+<use Graphics/city sim basic.png>
+Package pdftex.def Info: Graphics/city sim basic.png  used on input line 295.
+(pdftex.def)             Requested size: 457.10837pt x 364.96399pt.
+
+
+LaTeX Warning: Citation `pjcode' on page 33 undefined on input line 296.
+
+
+LaTeX Warning: Citation `pjcode' on page 33 undefined on input line 296.
+
+) [33] [34 <C:/Users/robop/Documents/Pranay/# RESEARCH/Senior Thesis/# Live Pap
+er/Graphics/city sim basic.png>] (main.aux)
+ ***********
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-12-08>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  337B21F7E442747D4718695F183D5122;3380.
+ ) 
+Here is how much of TeX's memory you used:
+ 28021 strings out of 474491
+ 554385 string characters out of 5743833
+ 1980473 words of memory out of 5000000
+ 49641 multiletter control sequences out of 15000+600000
+ 632942 words of font info for 183 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,16n,107p,1871b,569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/robop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmex10.pfb><C:/Users/robop/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb><C:/Users/robop/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb><C:/Users/robop/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/robop/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/mathpazo/fplmbb.pfb><C:/Users/robop/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/mathpazo/fplmr.pfb><C:/Users/robop/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/mathpazo/fplmri.pfb><C:/Users/robop/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/robop/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplbi8a.pfb><C:/Users/robop/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/robop
+/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (34 pages, 1593034 bytes).
+PDF statistics:
+ 349 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+
